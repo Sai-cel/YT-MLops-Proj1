@@ -1,0 +1,21 @@
+1. Create project template by executing template.py file  
+2. Write the code on setup.py and pyproject.toml file to import local packages  
+   >> Find more about “setup.py and pyproject.toml” at crashcourse.txt  
+3. Create a virtual env, activate it and install the requirements from requirements.txt  
+   >> conda create -n vehicle python=3.10 -y  
+   >> conda activate vehicle  
+   and required modules to requirements.txt  
+4. Do “pip install -r requirements.txt”  
+5. Do a “pip list” on terminal to make sure you have local packages installed.  
+
+🧠 **MongoDB Setup**  
+6. Sign up to MongoDB Atlas and create a new project by just providing it a name then next next create.  
+7. From “Create a cluster” screen, hit “Create”, select M0 service keeping other services as default, hit  
+   >> setup the username and password and then create DB user.  
+8. Go to “network access” and add ip address “0.0.0.0/0” so that we can access it from anywhere  
+9. Go back to project >> “Setup (connection string)” >> (Driver: Python, Version: 3.6 or later)  
+10. Copy and save the connection string with your <password> placeholder.  
+11. Create folder “notebooks” >> create file “mongodb_learn.ipynb” >> select kernel: python kernel/siva >>  
+12. Kaggle Data link: https://www.kaggle.com/datasets/morozs/evsaysia-dataset  
+13. PUSH your data to MongoDB database from your python notebook.  
+14. Go to MongoDB Atlas >> Database >> browse collection >> see your data in key value format  
