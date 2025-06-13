@@ -19,3 +19,10 @@
 12. Kaggle Data link: https://www.kaggle.com/datasets/morozs/evsaysia-dataset  
 13. PUSH your data to MongoDB database from your python notebook.  
 14. Go to MongoDB Atlas >> Database >> browse collection >> see your data in key value format  
+
+
+logging and exception and notebook
+
+14. Write the logger file and test it on demo.py  
+15. Write the exception file and test it on demo.py  
+16. EDA and Feature Engg notebook added.
