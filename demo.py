@@ -1,10 +1,4 @@
-from src.exception import MyException
-from src.logger import logging 
-import sys
+from src.pipline.training_pipeline import TrainPipeline
 
-try:
-    a=1+"z"
-    
-except Exception as e:
-    logging.info(e)
-    raise MyException(e,sys)
+pipline = TrainPipeline()
+pipline.run_pipeline()
